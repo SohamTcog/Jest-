@@ -1,0 +1,36 @@
+/* PostListDataContainer.css */
+
+.post-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .loading-text, .error-text, .no-data-text {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f7d7da;
+    border: 1px solid #f4c2c2;
+    border-radius: 4px;
+    color: #721c24;
+  }
+  
+  .post-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .post-table th, .post-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .post-table th {
+    background-color: #f2f2f2;
+  }
+  

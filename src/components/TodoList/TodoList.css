@@ -1,0 +1,46 @@
+.todolist-container {
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.329);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todos-container {
+    overflow: auto;
+    height: 90%;
+}
+
+.todo-item {
+    border-bottom: .05rem solid rgba(0, 0, 0, 0.082);
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.todo-item-active {
+    text-decoration: line-through;
+    color: grey
+}
+
+.todo-item button {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.todo-item button.edit-button {
+    background-color: #2196f3; /* Blue */
+}
+
+.todo-item button.delete-button {
+    background-color: #f44336; /* Red */
+}
