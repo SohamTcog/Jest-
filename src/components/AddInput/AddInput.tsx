@@ -9,6 +9,7 @@ interface Todo {
 }
 
 interface AddInputProps {
+    //comment
     setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
     todos: Todo[];
 }
