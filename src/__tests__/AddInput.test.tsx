@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import AddInput from "./AddInput"
+import AddInput from "../components/AddInput"
 
 const mockedSetTodo = jest.fn();
 
